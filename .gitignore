@@ -1,0 +1,19 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build directory
+.build/
+
+# Dependency directory
+node_modules/
+public/components/
+
+# Webstorm files
+.idea/
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
