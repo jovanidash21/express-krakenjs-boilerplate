@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-express-krakenjs",
+  "name": "express-krakenjs-boilerplate",
   "description": "Node.js Express Kraken.js - Application",
   "main": "index.js",
   "author": "Jovani Warguez",

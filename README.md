@@ -1,4 +1,4 @@
-# Node.js-Express-Kraken.js-Boilerplate
+# Express-Kraken.js Boilerplate
 ---
 
 ## Prerequisite
@@ -7,11 +7,11 @@
 ## Installation
 * Clone or download this repository.
 ```
-git clone https://github.com/jovanidash21/nodejs-express-krakenjs.git
+git clone https://github.com/jovanidash21/express-krakenjs-boilerplate.git
 ```
 * Navigate to the project directory.
 ```
-cd nodejs-express-krakenjs
+cd express-krakenjs-boilerplate
 ```
 * Install node modules.
 ```
