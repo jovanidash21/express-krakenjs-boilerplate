@@ -5,8 +5,11 @@
   "author": "Jovani Warguez",
   "main": "index.js",
   "scripts": {
-    "postinstall": "bower install && grunt build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "concurrently \"npm run build:client\" \"npm run build:server\"",
+    "build:client": "grunt build",
+    "build:server": "cross-env NODE_ENV=production node server.js",
+    "dev": "concurrently -k \"grunt watch\" \"nodemon server.js --watch build\""
   },
   "dependencies": {
     "concurrently": "^3.5.0",
