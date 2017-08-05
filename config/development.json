@@ -42,7 +42,12 @@
                             "files": "/templates/**/*.js",
                             "base": "templates"
                         },
-                        
+
+
+                        "css": {
+                            "module": "construx-sass",
+                            "files": "/css/**/*.css"
+                        },
                         
                         "copier": {
                             "module": "construx-copier",
