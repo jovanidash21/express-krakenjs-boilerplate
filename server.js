@@ -2,7 +2,6 @@
 
 var app = require('./index');
 var http = require('http');
-var browserSync = require('browser-sync');
 
 var server;
 
@@ -18,6 +17,7 @@ server.on('listening', function () {
 
 // browserSync setup
 if ( process.env.NODE_ENV != 'production' ) {
+    var browserSync = require('browser-sync');
     browserSync({
         files: ['./**/*'],
         online: false,
