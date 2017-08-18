@@ -1,12 +1,13 @@
 {
   "name": "express-krakenjs-boilerplate",
-  "description": "Node.js Express Kraken.js - Application",
-  "main": "index.js",
-  "author": "Jovani Warguez",
-  "moduleType": [
-    "node"
-  ],
+  "description": "",
   "private": true,
+  "author": "Jovani Warguez",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jovanidash21/express-krakenjs-boilerplate.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
