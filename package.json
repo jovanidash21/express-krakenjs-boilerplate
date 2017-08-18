@@ -1,9 +1,14 @@
 {
   "name": "express-krakenjs-boilerplate",
-  "version": "0.1.0",
-  "description": "Node.js Express Kraken.js - Application",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
   "author": "Jovani Warguez",
-  "main": "index.js",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jovanidash21/express-krakenjs-boilerplate.git"
+  },
   "scripts": {
     "start": "node server.js",
     "build": "concurrently \"npm run build:client\" \"npm run build:server\"",
