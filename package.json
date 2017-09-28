@@ -17,7 +17,6 @@
     "dev": "concurrently -k \"grunt watch\" \"nodemon server.js --watch build\""
   },
   "dependencies": {
-    "concurrently": "^3.5.0",
     "construx": "^1.0.0",
     "construx-copier": "^1.0.0",
     "construx-dustjs": "^1.1.0",
