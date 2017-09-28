@@ -11,10 +11,12 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "concurrently \"npm run build:client\" \"npm run build:server\"",
-    "build:client": "grunt build",
-    "build:server": "cross-env NODE_ENV=production node server.js",
-    "dev": "concurrently -k \"grunt watch\" \"nodemon server.js --watch build\""
+    "build": "run-s grunt:prod node:prod",
+    "dev": "run-p grunt:dev node:dev",
+    "grunt:prod": "grunt build",
+    "grunt:dev": "grunt watch",
+    "node:prod": "cross-env NODE_ENV=production node server.js",
+    "node:dev": "nodemon server.js --watch build"
   },
   "dependencies": {
     "construx": "^1.0.0",
